@@ -1,0 +1,23 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    url: jdbc:h2:file:~/test
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
+  data:
+    web:
+      pageable:
+        page-parameter: p
+        size-parameter: s
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    
