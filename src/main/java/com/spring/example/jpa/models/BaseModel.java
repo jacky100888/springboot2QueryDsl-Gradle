@@ -1,4 +1,4 @@
-package com.lufficc.spring.example.jpa.models;
+package com.spring.example.jpa.models;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;

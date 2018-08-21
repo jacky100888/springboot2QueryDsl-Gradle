@@ -29,15 +29,18 @@ sourceSets {
     }
 }
 
+bootJar {
+    baseName = 'springboot2-querydsl'
+    version = '0.0.1'
+    mainClassName = 'com.spring.example.jpa.ExampleJpaApplication'
+    //exclude '*.yml'
+}
+
 querydsl {
     jpa = true
     querydslSourcesDir = "$buildDir/generated/source/apt/main"
 }
 
-jar {
-    baseName = 'spring-boot-querydsl'
-    version = '0.0.1-SNAPSHOT'
-}
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 

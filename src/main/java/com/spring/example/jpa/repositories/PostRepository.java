@@ -1,8 +1,9 @@
-package com.lufficc.spring.example.jpa.repositories;
+package com.spring.example.jpa.repositories;
 
-import com.lufficc.spring.example.jpa.models.Post;
-import com.lufficc.spring.example.jpa.models.QPost;
+import com.spring.example.jpa.models.QPost;
 import com.querydsl.core.types.dsl.StringExpression;
+import com.spring.example.jpa.models.Post;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.data.querydsl.binding.QuerydslBinderCustomizer;

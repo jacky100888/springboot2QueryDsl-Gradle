@@ -1,4 +1,4 @@
-package com.lufficc.spring.example.jpa.repositories;
+package com.spring.example.jpa.repositories;
 
 import java.io.Serializable;
 import java.util.List;

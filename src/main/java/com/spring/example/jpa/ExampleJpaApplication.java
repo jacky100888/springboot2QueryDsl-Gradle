@@ -1,19 +1,19 @@
-package com.lufficc.spring.example.jpa;
-
-import com.lufficc.spring.example.jpa.models.Category;
-import com.lufficc.spring.example.jpa.models.Post;
-import com.lufficc.spring.example.jpa.models.Tag;
-import com.lufficc.spring.example.jpa.models.User;
-import com.lufficc.spring.example.jpa.repositories.CategoryRepository;
-import com.lufficc.spring.example.jpa.repositories.PostRepository;
-import com.lufficc.spring.example.jpa.repositories.TagRepository;
-import com.lufficc.spring.example.jpa.repositories.UserRepository;
+package com.spring.example.jpa;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
+
+import com.spring.example.jpa.models.Category;
+import com.spring.example.jpa.models.Post;
+import com.spring.example.jpa.models.Tag;
+import com.spring.example.jpa.models.User;
+import com.spring.example.jpa.repositories.CategoryRepository;
+import com.spring.example.jpa.repositories.PostRepository;
+import com.spring.example.jpa.repositories.TagRepository;
+import com.spring.example.jpa.repositories.UserRepository;
 
 import javax.annotation.PostConstruct;
 

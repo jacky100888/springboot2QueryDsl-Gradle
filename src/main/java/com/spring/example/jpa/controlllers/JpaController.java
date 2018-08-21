@@ -1,16 +1,16 @@
-package com.lufficc.spring.example.jpa.controlllers;
+package com.spring.example.jpa.controlllers;
 
-import com.lufficc.spring.example.jpa.models.Post;
-import com.lufficc.spring.example.jpa.models.QPost;
-import com.lufficc.spring.example.jpa.models.QUser;
-import com.lufficc.spring.example.jpa.models.User;
-import com.lufficc.spring.example.jpa.repositories.PostRepository;
-import com.lufficc.spring.example.jpa.repositories.UserRepository;
+import com.spring.example.jpa.models.QPost;
+import com.spring.example.jpa.models.QUser;
 import com.querydsl.core.types.Predicate;
 import com.querydsl.core.types.dsl.ComparableExpressionBase;
 import com.querydsl.core.types.dsl.NumberExpression;
 import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQueryFactory;
+import com.spring.example.jpa.models.Post;
+import com.spring.example.jpa.models.User;
+import com.spring.example.jpa.repositories.PostRepository;
+import com.spring.example.jpa.repositories.UserRepository;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
